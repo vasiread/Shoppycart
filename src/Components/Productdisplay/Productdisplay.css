@@ -1,0 +1,116 @@
+.productdisplay {
+    display: flex;
+    margin: 10px 170px;
+}
+
+.productdisplayleft {
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplayimagelist {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplayimagelist img {
+    height: 163px;
+}
+
+.productdisplaymainimg {
+    width: 586px;
+    height: 700px;
+}
+
+.productdisplayright {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplayright h1 {
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.productdisplayrightstars {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.productdisplayrightstars p {
+    margin: 0 0 0 10px;
+}
+
+.productdisplayrightprice {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.productdisplayrightpriceold {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.productdisplayrightpricenew {
+    color: #e53935;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.productdisplayrightdescription {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.productdisplayrightsize {
+    margin-top: 20px;
+}
+
+.productdisplayrightsizes {
+    display: flex;
+    gap: 10px;
+}
+
+.productdisplayrightsizes div {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.productdisplayrightsizes div:hover {
+    background-color: #100c0c;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+.productdisplayrightcategory {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.productdisplayrightcategory span {
+    font-weight: bold;
+}

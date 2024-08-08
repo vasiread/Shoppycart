@@ -1,0 +1,119 @@
+.cartitems{
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+
+
+}
+.cartitems hr{
+    height: 3px;
+    background-color: #e2e2e2;
+    border: 0;
+}
+.cartitemsformatemain
+{
+    display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 75px;
+        padding: 20px 0px;
+        columns: 20px 0px;
+        color: #454545;
+        font-size: 18px;
+        font-weight: 600;
+}
+.cartitemsformate{
+    /* display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    columns: 20px 0px;
+    color: #454545; */
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.carticonproduct{
+    height: 62px;
+}
+ 
+.cartitemsremoveicon{
+    width: 15px;
+    margin: 0 40px;
+    cursor: pointer;
+
+}
+.cartitemsquantity{
+width: 64px;
+height: 50px;
+border: 2px solid #ebebeb;
+background-color: #fff;
+color:#454545;
+margin-left:23px;
+}
+
+.cartitemsdown{
+    display: flex;
+    margin: 100px 0;
+
+
+}
+.cartitemstotal{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-top: -90px;
+    margin-left: 50px;
+    gap:40px;
+}
+.cartsitemtotalitems{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+.cartitemstotalitems button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background-color: #ff5a5a;
+    color:#fff;
+    font-size: 16px;cursor:pointer
+
+}
+.cartitemspromocode{
+flex:1;
+font-size: 16px;
+font-weight: 500;
+}
+.cartitemspromocode p{
+    color:#555
+}
+.cartitemspromobox{
+    padding-left:20px;
+    height:58px;
+    margin-top: 15px;
+    padding-left: 20px;
+    background-color: #eaeaea;
+
+}
+.cartitemspromobox input{
+    border: none;
+    outline: none;
+    background:transparent;
+    width: 330px;
+    font-size: 16px;
+    height: 50px;
+
+}
+.cartitemspromobox button{
+    cursor:pointer;
+    width: 170px;
+    height: 58px;
+    background-color: black;
+    color:white;
+    margin-left:-20px
+}
